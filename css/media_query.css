@@ -1,0 +1,43 @@
+/* media for fix navbar links when make slide down*/
+
+@media screen and (max-width:991px) {
+
+  .navbar-nav {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+}
+
+/*media at ipad*/
+
+@media screen and (max-width: 768px) and (min-width:541px) {
+
+/*start header*/
+
+.header .overlay .content {
+  padding-top: 300px;
+}
+
+}
+
+/* end media at ipad */
+
+/*fix form when screen 540 px and it will take nexus 5 */
+
+@media screen and (max-width:540px) {
+
+.header .overlay .content {
+  padding-top: 200px;
+}
+
+.contact-me {
+  padding: 100px 30px;
+  }
+
+.contact-me .form-contact-me {
+    padding: 50px;
+  }
+
+}

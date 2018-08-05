@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- font-awesome liberary -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- style css for page -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--  using media query -->
+    <link rel="stylesheet" href="css/media_query.css">
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo for ahmed toama " width="70" height="50"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-me">about me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-me">contact me</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- start header -->
+  <header class="header">
+    <div class="overlay">
+      <div class="container">
+        <div class="content">
+          <h1 class="my-name">ahmed mohamed toama</h1>
+          <p class="description-me lead">i am front-end web developer you contact with me at this links below.</p>
+          <div class="social-media">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+  </header>
+  <!-- end header -->
+  <!-- start about me -->
+  <section class="about-me" id="about-me">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="head-about-me">about me</h2>
+        </div>
+      </div>
+      <div class="information-about-me row">
+       <div class="col-xs-12 m-auto">
+        <div class="image-me">
+          <img src="img/ahmed-toama.jpg" alt="ahmed-toama">
+        </div>
+        <p class="describe-me first lead">my name is ahmed mohamed toama i am learning in BFCI , expected graduated in 2018</p>
+        <p class="describe-me second lead">i made many project by c++,java,web application</p>
+      </div>
+    </div>
+    </div>
+  </section>
+    <!-- end about me -->
+    <!-- seperator -->
+    <div class="container">
+      <section class="row">
+          <div class="col-sm-12">
+            <div class="seperator"></div>
+          </div>
+      </section>
+    </div>
+    <!-- end seperator -->
+    <!-- start projects -->
+      <section class="projects" id="projects">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="head-projects">Projects</h2>
+            </div>
+          </div>
+          <div class="my-projects">
+            <div class="row">
+              <div class="project col-lg-4 col-sm-6 col-xs-12">
+                  <img src="img/hospital_1.png" alt="hospital_1" class="img-project">
+                </div>
+                <div class="project col-lg-4 col-sm-6 col-xs-12">
+                  <img src="img/hospital_2.jpg" alt="hospital_2" class="img-project">
+                </div>
+                <div class="project col-lg-4 col-sm-6 col-xs-12">
+                  <img src="img/hotel_1.jpg" alt="hotel_1" class="img-project">
+                </div>
+                <div class="project col-lg-4 col-sm-6 col-xs-12">
+                  <img src="img/hotel_2.png" alt="hotel_2" class="img-project">
+                </div>
+                <div class="project col-lg-4 col-sm-6 col-xs-12">
+                  <img src="img/resturant_1.jpg" alt="resturant_1" class="img-project">
+                </div>
+                <div class="project col-lg-4 col-sm-6 col-xs-12">
+                  <img src="img/resturant_2.jpg" alt="resturant_2" class="img-project">
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end projects -->
+      <!-- seperator -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="seperator"></div>
+          </div>
+        </div>
+      </div>
+      <!-- end seperator -->
+      <!-- start contact me -->
+      <section class="contact-me" id="contact-me">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class="head-contact">contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <form action="process.php" method="post" class="form-contact-me col-lg-6 col-xs-12">
+                <input type="text" name="user_name" class="user_name " placeholder="User Name" required>
+                <input type="email" name="user_email" class="user_email " placeholder="User Email" required>
+                <textarea name="user_comment" class="user_comment " placeholder="How can i help you ?" required></textarea>
+                <div class="row">
+                  <div class="wrapper col-lg-6 col-xs-12">
+                    <input type="submit" name="submit" value="Submit" class="user_submit btn btn-primary">
+                  </div>
+                  <div class="wrapper col-lg-6 col-xs-12">
+                    <input type="reset" name="reset" value="Reset" class="user_reset btn btn-primary">
+                  </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    <!-- end contact me -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
